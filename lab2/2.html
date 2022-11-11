@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Категории:
+    <select >
+        <option value="all">Все</option>
+        <option value="pencil">Карандаши</option>
+        <option value="pen">Ручки</option>
+        <option value="rull">Ластики</option>
+    </select>
+    <button>Показать</button>
+    <table>
+        <tr>№</tr>
+        <tr>Наименование</tr>
+        <tr>Категория </tr>
+        <tr>Цена</tr>
+    </table>
+</body>
+</html>
+
+if(!isset($_POST["rull"]))
+{
+  
+   $array1 = array(
+      
+     
+       0 => array(
+           'number' => '1',
+           'name' => 'rull',
+           'category' => 'rulls',
+           'cost' => '28'
+       ),
+       1 => array(
+           'number' => '2',
+           'name' => 'rull',
+           'category' => 'rulls',
+           'cost' => '62'
+       ),
+       2 => array(
+           'number' => '3',
+           'name' => 'rull',
+           'category' => 'rulls',
+           'cost' => '12'
+       ),
+     
+   );
+}
+if(!isset($_POST["pencil"]))
+ {
+    
+    $array1 = array(
+        0 => array(
+            'number' => '1',
+            'name' => 'pencil',
+            'category' => 'pencils',
+            'cost' => '38'
+        ),
+        1 => array(
+            'number' => '2',
+            'name' => 'pencil',
+            'category' => 'pencils',
+            'cost' => '69'
+        ),
+
+    );
+ }
+if(!isset($_POST["pen"]))
+ {
+    
+    $array1 = array(
+    
+      
+        0 => array(
+            'number' => '1',
+            'name' => 'pen',
+            'category' => 'pens',
+            'cost' => '382'
+        ),
+        1 => array(
+            'number' => '2',
+            'name' => 'pen',
+            'category' => 'pens',
+            'cost' => '169'
+        ),
+        2 => array(
+            'number' => '3',
+            'name' => 'pen',
+            'category' => 'pens',
+            'cost' => '318'
+        ),
+        3 => array(
+            'number' => '4',
+            'name' => 'pen',
+            'category' => 'pens',
+            'cost' => '691'
+        ),
+       
+      
+    );
+ }
